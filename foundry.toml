@@ -8,6 +8,9 @@ solc_version = "0.8.21"
 
 fs_permissions = [{ access = "read", path = "./"}]
 
+optimizer = true
+optimizer_runs = 200
+
 
 [fuzz]
 # https://book.getfoundry.sh/reference/config/testing#fuzz
